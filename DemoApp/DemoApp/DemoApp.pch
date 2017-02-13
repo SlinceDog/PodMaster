@@ -1,0 +1,22 @@
+//
+//  DemoApp.pch
+//  DemoApp
+//
+//  Created by wu yutian on 2017/2/8.
+//  Copyright © 2017年 wu yutian. All rights reserved.
+//
+
+#ifndef DemoApp_pch
+#define DemoApp_pch
+#import <Availability.h>
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import <Foundation/Foundation.h>
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* DemoApp_pch */
