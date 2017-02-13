@@ -43,21 +43,21 @@ $ git clone https://github.com/SlinceDog/PodMaster.git
 
 ##三、制作并提交podSpec文件
 ####注意：以下描述的文件都要放在步骤二clone到本地的git仓库的根目录下面。
-![MacDown Screenshot](/Users/wuyutian/Desktop/屏幕快照 2017-02-13 下午4.30.05.png)
+![MacDown Screenshot](https://ww3.sinaimg.cn/large/006tNc79jw1fcozu2a9frj30xs0jyta2.jpg)
 
 ###如何创建podSpec文件？两种方法
 1、
 ```
 $ pod spec create XXX 
 ```
-![MacDown Screenshot](/Users/wuyutian/Desktop/屏幕快照 2017-02-13 下午5.43.09.png)
+![MacDown Screenshot](https://ww1.sinaimg.cn/large/006tNc79gy1fcozuhz735j31kw1124ax.jpg)
 出来是这个样子的，很多没有用的参数，不推荐用这种方式。
 
 2、拷贝别人的
 
 ###podSpec参数说明
 以DemoApp.podspec为例
-![MacDown Screenshot](/Users/wuyutian/Desktop/屏幕快照 2017-02-13 下午5.49.08.png)
+![MacDown Screenshot](https://ww1.sinaimg.cn/large/006tNc79gy1fcozuyi5g7j317o0jugr1.jpg)
 该文件是 ruby 文件，里面的条目都很容易知道含义。其中需要说明的有几个参数：
 
 * 1、s.license : Pods 依赖库使用的 license 类型，大家填上自己对应的选择即可。
