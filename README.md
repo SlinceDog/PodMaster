@@ -1,12 +1,4 @@
 
-![MacDown logo](http://macdown.uranusjr.com/static/base/img/logo-160.png)
-
-Hello there! I’m **MacDown**, the open source Markdown editor for OS X.
-
-Let me introduce myself.
-
-
-
 ## CocoaPods
 
 **CocoaPod**  是开发 OS X 和 iOS 应用程序的一个第三方库的依赖管理工具。利用 CocoaPods，可以定义自己的依赖关系 (称作 pods)，并且随着时间的变化，以及在整个开发环境中对第三方库的版本管理非常方便。
