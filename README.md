@@ -77,7 +77,7 @@ $ pod spec create XXX
 * 然后配置podfile
 ![MacDown Screenshot](https://ww2.sinaimg.cn/large/006tNc79jw1fcp0sds0juj31kw0rdq7x.jpg)
 ### 工程如果用swift的话，需要打开use_frameworks!
-* cd到工程目录 pod install 
+### cd到工程目录 pod install 
 ![MacDown Screenshot](https://ww3.sinaimg.cn/large/006tNc79gy1fcp0xfqu82j30d60li7b9.jpg)
 ![MacDown Screenshot](https://ww2.sinaimg.cn/large/006tNc79gy1fcp0xj43h3j31i60nmneg.jpg)
 ### 看到没，我们不需要添加pod引入的第三方库我的框架，他都会帮我们配置完了。只管用！
