@@ -57,7 +57,7 @@ $ pod spec create XXX
 * 3、s.frameworks : 需要用到的 frameworks，不需要加 .frameworks 后缀。
 * 4、s.resource : 需要用到的 frameworks，不需要加 .frameworks : 需要用的资源文件 bundle
 * 5、s.vendored_libraries : 需要用到的 .a 文件
-* 修改好后save、 commit 、push 
+* 修改好后save、 commit 、push ,需要注意的是不要加回车，否则可能podfile.lock 这是ruby语法错误，导致install不成功
 
 ##四、创建一个Demo工程
 * 例如我新建了一个工程取名叫DemoApp在根目录下创建一个自定义UIView取名叫 CustomView 随便写点什么东西
@@ -77,6 +77,7 @@ $ pod spec create XXX
 * 然后配置podfile
 ![MacDown Screenshot](https://ww2.sinaimg.cn/large/006tNc79jw1fcp0sds0juj31kw0rdq7x.jpg)
 ### 工程如果用swift的话，需要打开use_frameworks!
+
 ### cd到工程目录 pod install 
 ![MacDown Screenshot](https://ww3.sinaimg.cn/large/006tNc79gy1fcp0xfqu82j30d60li7b9.jpg)
 ![MacDown Screenshot](https://ww2.sinaimg.cn/large/006tNc79gy1fcp0xj43h3j31i60nmneg.jpg)
