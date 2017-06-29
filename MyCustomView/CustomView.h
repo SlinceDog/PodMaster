@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CustomView : UIView
-
+@property(nonull, nonatomic, strong) NSSTring *title;
 - (instancetype) initWithCustomView;
 
 @end
