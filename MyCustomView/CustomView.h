@@ -10,6 +10,9 @@
 
 @interface CustomView : UIView
 @property(nonull, nonatomic, strong) NSSTring *title;
+@property(nonull, nonatomic, strong) NSSTring *title;
+@property(nonull, nonatomic, strong) NSSTring *title;
+
 - (instancetype) initWithCustomView;
 
 @end
